@@ -1,311 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="portfolio, web developer, website, html">
-    <meta name="author" content="">
-
-    <title>
-
-        &middot; Nydia Segura-Reyna
-
-    </title>
-
-    <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
-    <link href="css/toolkit-minimal.css" rel="stylesheet">
-    <link href="css/application-minimal.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
-    <link rel="stylesheet" href=" http://weloveiconfonts.com/api/?family=fontawesome" />
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <!--
-    <style>
-      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
-      /* this chunk of css is not part of the toolkit :) */
-      /* …curses ios, etc… */
-      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-        body {
-          width: 1px;
-          min-width: 100%;
-          *width: 100%;
-        }
-        #stage {
-          height: 1px;
-          overflow: auto;
-          min-height: 100vh;
-          -webkit-overflow-scrolling: touch;
-        }
-      }
-    </style> -->
-</head>
-
-<body>
-
-    <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top  navbar-toggleable-sm  text-uppercase app-navbar mb-4">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="keywords" content="portfolio, web developer, website, html">
+      <meta name="author" content="">
+      <title>
+         &middot; Nydia Segura-Reyna
+      </title>
+      <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+      <link href="css/toolkit-minimal.css" rel="stylesheet">
+      <link href="css/application-minimal.css" rel="stylesheet">
+      <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+      <link rel="stylesheet" href=" http://weloveiconfonts.com/api/?family=fontawesome" />
+      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div class="container-fluid">
+         <nav class="navbar navbar-fixed-top  navbar-toggleable-sm  text-uppercase app-navbar mb-4">
             <button class="navbar-toggler navbar-toggler-right hidden-md-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
-
             <!-- Nav logo -->
             <a class="navbar-brand mr-auto" href="#home1">
-                <span>Nydia Segura-Reyna</span>
+            <span>Nydia Segura-Reyna</span>
             </a>
-
             <!-- Nav -->
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#home1">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about1">About</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#projs">Projects</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#contactMe">Contact</a>
-                    </li>
-                </ul>
+               <ul class="nav navbar-nav ml-auto">
+                  <li class="nav-item ">
+                     <a class="nav-link" href="#home1">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#about1">About</a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="#projs">Projects</a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="#contactMe">Contact</a>
+                  </li>
+               </ul>
             </div>
             <!--/.nav-collapse -->
-        </nav>
-    </div>
-
-    <!-- Header -->
-    <div class="app-block-intro blue">
-        <div class="container-fluid text-xs-center">
+         </nav>
+      </div>
+      <!-- Header -->
+      <div class="app-block-intro blue">
+         <div class="container-fluid text-xs-center">
             <h1 class="block-title mb-5 text-uppercase app-myphone-brand"> Hello</h1>
-        </div>
-    </div>
-
-    <!-- About Me block -->
-
-    <div class="app-block-stats">
-        <div class="container">
+         </div>
+      </div>
+      <!-- About Me block -->
+      <div class="app-block-stats">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-6 mt-3 mb-3">
-                    <img src="img/nydiapic.jpg" class="pr-4 img-responsive mb-4" data-transition="entrance">
-                    <hr class="mt-0 mb-5 mx-auto hidden-md-up">
-                </div>
-
-                <div class="col-lg-5 col-md-6 text-center text-md-left mt-4">
-                    <h2 class=" block-title mb-3 text-center"> About Me </h2>
-                    <p id="about1">
-                        Hello, my name is Nydia Segura and I am a front end web developer. My professional background includes software QA and a degree from the University of Houston in Computer Engineering Technology. I have been diving into the world of web development by immersing myself in HTML, CSS, JavaScript, jQuery. I plan to explore back-end development next. I live in Houston, TX and when I am not following tutorials online, I enjoy running, baking, hanging out with my dogs, and making elaborate chalkboards for my friend's special occasions!
-                    </p>
-                    <br>
-
-                    <div class="row mt-3">
-                        <div class="col-6">
-                            <h3 class="mb-3"> What I know:</h3>
-                            <ul>
-                                <li class="list-inline-item">
-                                    <i class="devicon-html5-plain-wordmark iconSkill"></i>
-                                </li>
-
-                                <li class="list-inline-item">
-                                    <i class="devicon-css3-plain-wordmark iconSkill"></i>
-                                </li>
-
-                                <li class="list-inline-item">
-                                    <i class="devicon-javascript-plain iconSkill"></i>
-                                </li>
-
-                                <li class="list-inline-item">
-                                    <i class="devicon-bootstrap-plain-wordmark iconSkill"></i>
-                                </li>
-
-                                <li class="list-inline-item">
-                                    <i class="devicon-git-plain-wordmark iconSkill"></i>
-                                </li>
-
-                                <li class="list-inline-item">
-                                    <i class="devicon-jquery-plain-wordmark iconSkill"> </i>
-                                </li>
-
-                                <li class="list-inline-item">
-                                    <i class="devicon-photoshop-plain iconSkill"></i>
-                                </li>
-                                
-                                <li class="list-inline-item">
-                                    <i class="devicon-python-plain-wordmark iconSkill"></i>
-                                </li>
-
-                            </ul>
-                        </div>
-
-                        <div class="col-6">
-                            <h3 class="text-center"> What I am learning: </h3>
-                            <ul>
-                                <li class="list-inline-item">
-                                    <i class="devicon-react-original-wordmark iconSkill"></i>
-                                </li>
-
-                                <li class="list-inline-item">
-                                    <i class="devicon-nodejs-plain-wordmark iconSkill"> </i>
-                                </li>
-                                
-                                 <li class="list-inline-item">
-                                    <i class="devicon-express-original-wordmark iconSkill"></i>
-                                </li>
-
-                                <li class="list-inline-item">
-                                    <i class="devicon-illustrator-plain iconSkill"> </i>
-                                </li>
-
-                                <li class="list-inline-item">
-                                    <i class="devicon-postgresql-plain-wordmark iconSkill"></i>
-                                </li>
-
-                            </ul>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-    
-
-    <!-- Projects -->
-
-    
-        <div class="container-fluid blue">
-            <div class="row">
-                <div class="col-sm-8 offset-sm-2 text-center mb-2">
-                    <h1 id="projs" class="mt-5 mb-5">Projects </h1>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-6">
-                        <ul class="featured-list">
-                            <li class="mb-5">
-                                <div class="featured-list-icon text-primary">
-                                    <span class="icon fontawesome-circle"></span>
-                                </div>
-                                <p class="featured-list-icon-text mb-0"><strong>Artist Portfolio Site</strong></p>
-                                <p class="featured-list-icon-text">
-                                    Portfolio website to display hand lettering projects.</p>
-                                <p><strong>Technologies used: HTML, CSS, jQuery, JavaScript, Bootstrap 4 </strong> </p>
-                                <p> <a href="http://nydiaportfolio-com.stackstaging.com/index.html"> See it live! </a> </p>
-                                <p> <a href="https://github.com/ninikat/LetteringPortfolio1"> Github </a> </p>
-                                <p> <img class="rounded text-center" src="img/website.png" height=200px width=250px> </p>
-
-                            </li>
-
-                            <li class="mb-5">
-                                <div class="featured-list-icon text-primary">
-                                    <span class="icon fontawesome-circle"></span>
-                                </div>
-                                <p class="featured-list-icon-text mb-0"><strong>Click Reactor Game</strong></p>
-                                <p class="featured-list-icon-text">
-                                    Game that displays randomly sized and colored squares and circles. Once the shapes are clicked, a timer will display how long the reaction time was.
-                                </p>
-                                <p><strong>Technologies used: HTML, CSS, JavaScript </strong> </p>
-                                <p> <a href="http://reactiontestergame-com.stackstaging.com/"> See it live! </a> </p>
-                                <p> <a href="https://github.com/ninikat/Tracker-Game"> Github </a> </p>
-
-                                <p> <img class="rounded text-center" src="img/trackerGame.png" height=200px width=250px> </p>
-
-                            </li>
-
+               <div class="col-lg-7 col-md-6 mt-3 mb-3">
+                  <img src="img/nydiapic.jpg" class="pr-4 img-responsive mb-4" data-transition="entrance">
+                  <hr class="mt-0 mb-5 mx-auto hidden-md-up">
+               </div>
+               <div class="col-lg-5 col-md-6 text-center text-md-left mt-4">
+                  <h2 class=" block-title mb-3 text-center"> About Me </h2>
+                  <p id="about1">
+                     Hello, my name is Nydia Segura and I am a front end web developer. My professional background includes software QA and a degree from the University of Houston in Computer Engineering Technology. I have been diving into the world of web development by immersing myself in HTML, CSS, JavaScript, jQuery. I plan to explore back-end development next. I live in Houston, TX and when I am not following tutorials online, I enjoy running, baking, hanging out with my dogs, and making elaborate chalkboards for my friend's special occasions!
+                  </p>
+                  <br>
+                  <div class="row mt-3">
+                     <div class="col-6">
+                        <h3 class="mb-3"> What I know:</h3>
+                        <ul>
+                           <li class="list-inline-item">
+                              <i class="devicon-html5-plain-wordmark iconSkill"></i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-css3-plain-wordmark iconSkill"></i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-javascript-plain iconSkill"></i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-bootstrap-plain-wordmark iconSkill"></i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-git-plain-wordmark iconSkill"></i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-jquery-plain-wordmark iconSkill"> </i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-photoshop-plain iconSkill"></i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-python-plain-wordmark iconSkill"></i>
+                           </li>
                         </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <ul class="featured-list">
-
-                            <li class="mb-5">
-                                <div class="featured-list-icon text-primary">
-                                    <span class="icon fontawesome-circle"></span>
-                                </div>
-                                <p class="featured-list-icon-text mb-0"><strong> Bookmark Application </strong></p>
-                                <p class="featured-list-icon-text">
-                                    Application which takes user inputed web addresses and saves them to a table. Created using tutorial by Traversy Media.
-                                </p>
-                                <p><strong>Technologies used: HTML, CSS, JavaScript, Bootstrap 4 </strong> </p>
-                                <p> <a href="https://codepen.io/nydia-segura/project/full/ArOnRG/"> See it live! </a> </p>
-                                <p> <a href="https://github.com/ninikat/BookmarkApp"> Github </a> </p>
-                                <p> <img class="rounded text-center" src="img/bookmarks.png" height=200px width=250px> </p>
-                            </li>
-                                <li class="mb-5">
-                                <div class="featured-list-icon text-primary">
-                                    <span class="icon fontawesome-circle"></span>
-                                </div>
-                                <p class="featured-list-icon-text mb-0"><strong> Pixel Art Maker </strong></p>
-                                <p class="featured-list-icon-text">
-                                    Application which allows user to create figures by coloring in a grid.
-                                </p>
-                                <p><strong>Technologies used: HTML, CSS, JavaScript, jQuery </strong> </p>
-                                <p> <a href="http://pixelartmaker-com.stackstaging.com/"> See it live! </a> </p>
-                                <p> <a href="https://github.com/ninikat/PixelArtMaker"> Github </a> </p>
-                                <p> <img class="rounded text-center" src="img/pixelArt.png" height=200px width=250px> </p>
-                            </li>
+                     </div>
+                     <div class="col-6">
+                        <h3 class="text-center"> What I am learning: </h3>
+                        <ul>
+                           <li class="list-inline-item">
+                              <i class="devicon-react-original-wordmark iconSkill"></i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-nodejs-plain-wordmark iconSkill"> </i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-express-original-wordmark iconSkill"></i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-illustrator-plain iconSkill"> </i>
+                           </li>
+                           <li class="list-inline-item">
+                              <i class="devicon-postgresql-plain-wordmark iconSkill"></i>
+                           </li>
                         </ul>
-                    </div>
-                    
-                    
-                    
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    
-
-    <!-- Contact Me -->
-
-    <div class="text-center">
-        <div class="container-fluid">
+         </div>
+      </div>
+      <!-- Projects -->
+      <div class="container-fluid blue">
+         <div class="row">
+            <div class="col-sm-8 offset-sm-2 text-center mb-2">
+               <h1 id="projs" class="mt-5 mb-5">Projects </h1>
+            </div>
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-sm-6">
+                     <ul class="text-center projects_list">
+                        <li class="mb-5">
+                           <p class="featured-list-icon-text mb-0"><strong>Artist Portfolio Site</strong></p>
+                           <p class="featured-list-icon-text">
+                              Portfolio website to display hand lettering projects.
+                           </p>
+                           <p><strong>Technologies used: HTML, CSS, jQuery, JavaScript, Bootstrap 4 </strong> </p>
+                           <p> <a href="http://nydiaportfolio-com.stackstaging.com/index.html"> See it live! </a> </p>
+                           <p> <a href="https://github.com/ninikat/LetteringPortfolio1"> Github </a> </p>
+                           <p> <img class="rounded text-center img-fluid" src="img/website.png" height=250px> </p>
+                        </li>
+                        <li class="mb-5">
+                           <p class="featured-list-icon-text mb-0"><strong>Click Reactor Game</strong></p>
+                           <p class="featured-list-icon-text">
+                              Game that displays randomly sized and colored squares and circles. Once the shapes are clicked, a timer will display how long the reaction time was.
+                           </p>
+                           <p><strong>Technologies used: HTML, CSS, JavaScript </strong> </p>
+                           <p> <a href="http://reactiontestergame-com.stackstaging.com/"> See it live! </a> </p>
+                           <p> <a href="https://github.com/ninikat/Tracker-Game"> Github </a> </p>
+                           <p> <img class="rounded text-center img-fluid" src="img/trackerGame.png" height=250px> </p>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6">
+                     <ul class="text-center projects_list">
+                        <li class="mb-5">
+                           <p class="featured-list-icon-text mb-0"><strong> Bookmark Application </strong></p>
+                           <p class="featured-list-icon-text">
+                              Application which takes user inputed web addresses and saves them to a table. Created using tutorial by Traversy Media.
+                           </p>
+                           <p><strong>Technologies used: HTML, CSS, JavaScript, Bootstrap 4 </strong> </p>
+                           <p> <a href="https://codepen.io/nydia-segura/project/full/ArOnRG/"> See it live! </a> </p>
+                           <p> <a href="https://github.com/ninikat/BookmarkApp"> Github </a> </p>
+                           <p> <img class="rounded text-center img-fluid" src="img/bookmarks.png" height=250px> </p>
+                        </li>
+                        <li class="mb-5">
+                           <p class="featured-list-icon-text mb-0"><strong> Pixel Art Maker </strong></p>
+                           <p class="featured-list-icon-text">
+                              Application which allows user to create figures by coloring in a grid.
+                           </p>
+                           <p><strong>Technologies used: HTML, CSS, JavaScript, jQuery </strong> </p>
+                           <p> <a href="http://pixelartmaker-com.stackstaging.com/"> See it live! </a> </p>
+                           <p> <a href="https://github.com/ninikat/PixelArtMaker"> Github </a> </p>
+                           <p> <img class="rounded text-center img-fluid" src="img/pixelArt.png" height=250px> </p>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Contact Me -->
+      <div class="text-center">
+         <div class="container-fluid">
             <h2 class="mt-5" id="contactMe">
-      Contact Me
-    </h2>
+               Contact Me
+            </h2>
             <ul class="list-inline mb-5">
-                <li class="list-inline-item">
-                    <a href="https://github.com/ninikat" class="fontawesome-github iconf"></a>
-                </li>
-
-                <li class="list-inline-item">
-                    <a href="https://www.instagram.com/nini_kat/" class="zocial-instagram iconf"></a>
-                </li>
-
-                <li class="list-inline-item">
-                    <a href=https://www.linkedin.com/in/nydiasegura class="zocial-linkedin iconf"></a>
-                </li>
-
-                <li class="list-inline-item">
-                    <a href="mailto:nydia.segura@gmail.com" class="zocial-gmail iconf"></a>
-                </li>
+               <li class="list-inline-item">
+                  <a href="https://github.com/ninikat" class="fontawesome-github iconf"></a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="https://www.instagram.com/nini_kat/" class="zocial-instagram iconf"></a>
+               </li>
+               <li class="list-inline-item">
+                  <a href=https://www.linkedin.com/in/nydiasegura class="zocial-linkedin iconf"></a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="mailto:nydia.segura@gmail.com" class="zocial-gmail iconf"></a>
+               </li>
             </ul>
-        </div>
-    </div>
-
-    <div class="app-block-footer blue">
-        <div class="container">
+         </div>
+      </div>
+      <div class="block app-block-footer blue">
+         <div class="container">
             <div class="row">
-                <div class="col-sm-12 mb-4 text-center">
-                    <h2 class="mt-4"> Thanks for visiting!</h2>
-                    <small class="text-muted text-center">
-      built by Nydia Segura-Reyna &copy; 2017
-
-      </small>
-                </div>
-
+               <div class="col-sm-12 mb-4 text-center">
+                  <h2 class="mt-4"> Thanks for visiting!</h2>
+                  <small class="text-muted text-center">
+                  built by Nydia Segura-Reyna &copy; 2017
+                  </small>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/toolkit.js"></script>
-    <script src="js/application.js"></script>
-</body>
-
+         </div>
+      </div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/tether.min.js"></script>
+      <script src="js/toolkit.js"></script>
+      <script src="js/application.js"></script>
+   </body>
 </html>

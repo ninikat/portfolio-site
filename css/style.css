@@ -2,7 +2,7 @@
     font-family: 'zocial', sans-serif;
     font-size: 30px;
     color: #554455;
-      }    
+      }
 
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
@@ -36,5 +36,10 @@
 
 .iconSkill {
 	font-size: 50px;
-	
+
+}
+
+.projects_list{
+  padding-left: 0;
+  list-style: none;
 }
