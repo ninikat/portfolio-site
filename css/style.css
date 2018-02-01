@@ -43,3 +43,28 @@
   padding-left: 0;
   list-style: none;
 }
+.hello_anim{
+  -webkit-animation: moveInLeft 2s ease-out;
+      animation: moveInLeft 2s ease-out;
+}
+
+.icons_skills{
+  margin-bottom: 20px;
+}
+
+.my_pic{
+  border-radius: 50%;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px); }
+  80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+    transform: translate(0); } }
