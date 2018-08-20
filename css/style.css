@@ -55,6 +55,11 @@
 .my_pic{
   border-radius: 50%;
 }
+.button_styles{
+  background-color: #544454;
+  color:white;
+  font-weight: bold;
+}
 
 @keyframes moveInLeft {
   0% {
