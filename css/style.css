@@ -49,7 +49,12 @@
 }
 
 .icons_skills{
-  margin-bottom: 20px;
+  width:60%;
+  margin: 0 auto 20px auto;
+}
+
+.icons_skills i{
+  padding:5px;
 }
 
 .my_pic{
@@ -58,9 +63,16 @@
 .button_styles{
   background-color: #544454;
   color:white;
-  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+.button_styles:hover{
+  color:white;
+  letter-spacing: 1.2px;
 }
 
+.project-image{
+  width:80%;
+}
 @keyframes moveInLeft {
   0% {
     opacity: 0;
