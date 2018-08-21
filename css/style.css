@@ -73,6 +73,21 @@
 .project-image{
   width:80%;
 }
+.project-image-case{
+  width:65%;
+}
+
+/*Case Study*/
+
+.text-box{
+  width:70%;
+  margin:auto;
+}
+
+.top-spacer{
+  margin-top:100px;
+}
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
